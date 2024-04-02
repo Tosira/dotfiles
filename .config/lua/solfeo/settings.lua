@@ -30,3 +30,17 @@ vim.g.maplocalloader = " "	-- Para definir mapeos especificos de un buffer o tip
 vim.opt.backup = false
 vim.opt.errorbells = false 
 vim.opt.swapfile = false
+
+-- Windows
+-- Desactivar la creación del archivo de historial de comandos
+vim.o.shada = ""
+
+-- Desactivar la creación del archivo de intercambio (swap)
+vim.o.swapfile = false
+
+-- Desactivar la creación del archivo de registro (log)
+vim.o.errorfile = ""
+
+-- Desactivar la creación del archivo de historial de Netrw
+vim.g.netrw_dirhistmax = 0
+

@@ -1,2 +1,2 @@
 require("solfeo.settings")
-require("solfeo.packer")
+require("solfeo.plugins")
